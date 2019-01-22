@@ -54,11 +54,36 @@ padding-bottom: 450px;
 padding-right: 30px;
 padding-left: 30px; 
   }
+ 
+    
+.btn{
+    background-color: red; color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;  
+    height: 100px ; 
+    width:  200px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    margin-right: 150px;
+    margin-left: 100px;
+    
+    }
 
-button {
-background-color: red; color: black; 
-font-size: 50px;
-        
-     }
+    .btn:link {
+        color:blue;        
+    }
+
+    .btn:visited {
+        color: green;
+    }
+
+    .btn:hover {
+        color: hotpink;
+    }
+
+    .btn:active {
+        color:red;
+    }
+
 
 
